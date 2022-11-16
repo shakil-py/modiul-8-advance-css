@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            margin: 0;
+        }
         h1{
             text-align: center;
         }
         .login-container{
             display: flex;
             justify-content: center;
+            background-color: rgba(144, 202, 202, 0.5);
+            height: 500px;
+
         }
-        .login-form{
+
+        .login-form {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+
         }
-       
+        .login-form input{
+            margin-bottom: 10px;
+            border: 2px solid rgba(2, 2, 2, 0.3);
+            border-radius: 15px;
+            padding: 4px 15px;
+        }
+        .login-form button{
+            background-color: rgba(4, 148, 250, 0.585);
+            border-radius: 50cm;
+            width: 100px;
+            
+            
+        }
     </style>
 </head>
+
 <body>
     <section class="login-container">
-        <h1>Login Form</h1>
+
         <from class="login-form">
+            <h1>LOGIN FORM</h1>
             <input type="email" name="email" placeholder="Your Email Please" id="">
             <input type="password" name="password" placeholder="Your password Please" id="">
-            <button type="submit">Submit</button>
-            
+            <button type="submit">Login</button>
+
         </from>
     </section>
 </body>
+
 </html>
