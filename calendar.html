@@ -5,8 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calendar</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 800;
+        }
+        .grid-calendar{
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            
+        }
+        .grid-cel{
+            text-align: center;
+            border: 1px solid rgb(0, 0, 0);
+            font-size: 40px;
+            margin-bottom: 5px;
+            /* box-shadow: 2px 3px 10px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .other-month{
+            color: rgb(165, 164, 164);
+        }
+        #fri{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <h1>calendar</h1>
+    <h1>Calendar</h1>
+    <div class="grid-calendar">
+        <div class="day grid-cel" id="fri">fri</div>
+        <div class="day grid-cel">sat</div>
+        <div class="day grid-cel">sun</div>
+        <div class="day grid-cel">mon</div>
+        <div class="day grid-cel">tuse</div>
+        <div class="day grid-cel">wed</div>
+        <div class="day grid-cel">ths</div>
+        <div class="grid-cel other-month">30</div>
+        <div class="grid-cel other-month">31</div>
+        <div class="grid-cel">1</div>
+        <div class="grid-cel">2</div>
+        <div class="grid-cel">3</div>
+        <div class="grid-cel">4</div>
+        <div class="grid-cel">5</div>
+        <div class="grid-cel">6</div>
+        <div class="grid-cel">7</div>
+        <div class="grid-cel">8</div>
+        <div class="grid-cel">9</div>
+        <div class="grid-cel">10</div>
+        <div class="grid-cel">11</div>
+        <div class="grid-cel">12</div>
+        <div class="grid-cel">13</div>
+        <div class="grid-cel">14</div>
+        <div class="grid-cel">15</div>
+        <div class="grid-cel">16</div>
+        <div class="grid-cel">17</div>
+        <div class="grid-cel">18</div>
+        <div class="grid-cel">19</div>
+        <div class="grid-cel">20</div>
+        <div class="grid-cel">21</div>
+        <div class="grid-cel">22</div>
+        <div class="grid-cel">23</div>
+        <div class="grid-cel">24</div>
+        <div class="grid-cel">25</div>
+        <div class="grid-cel">26</div>
+        <div class="grid-cel">27</div>
+        <div class="grid-cel">28</div>
+        <div class="grid-cel">29</div>
+        <div class="grid-cel">30</div>
+        <div class="grid-cel other-month">1</div>
+        <div class="grid-cel other-month">2</div>
+        <div class="grid-cel other-month">3</div>
+        
+    </div>
 </body>
 </html>
